@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  display: flex; /*  */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  perspective: 800px;
+  overflow: hidden;
+  background: white;
+}
+.board {
+  width: 800;
+  height: 700px;
+  min-width: 600px;
+  display: grid;
+  position: relative;
+  background: mistyrose;
+  box-shadow: inset 0 0 0 2px #181047;
+  transform-style: preserve-3d;
+  transform: rotateX(10deg);
+  padding: 20px;
+}
+.board:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: -50px;
+  box-shadow: inset 2px 0 0 #181047, inset -2px 0 0 #181047, 0 0px 0 0 #181047, 0 4px 0 0 #181047;
+  transform-origin: top;
+  transform: rotateX(-50deg);
+  background: thistle;
+}
+
+.flex-container {
+  display: flex;
+  
+  
+}
+
+.flex-container > div {
+  width: 70px;
+
+
+
+}
+
+.highlight {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kick {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hihat {
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+.perc {
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+.perc2 {
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+.openhat {
+  display: flex;
+  justify-content: space-between;
+
+
+
+
+
+}
+
+.pizz {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pizz2 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pizz3 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.pizz4 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+.sticker {
+  width: 50px;
+
+}
+
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid black;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox-round:checked {
+background-color: plum;
+
+}
+
+.checkbox-round2 {
+  width: .55em;
+  height: .55em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+
+.button1 {
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+
+path {
+  fill: aquamarine;
+}
+
+/* .MyClass {
+  fill: blue;
+
+} */
+
+.flex-container2 {
+  display: flex;
+  justify-content: space-between;
+  height:100px;
+}
+
+.flex-container2 > div {
+
+  width: 100px;
+  margin: 10px;
+ 
+  
+  font-size: 30px;
+}
+
+hr {
+  padding-bottom: 3px;
+  border-style: inset;
+  color:gainsboro;
+}
+
+.text {
+  text-shadow: 2px 2px plum;
+  font-family: 'VT323', monospace;
+}
+
+.text2 {
+  text-shadow: 2px 2px mediumturquoise;
+  font-family: 'VT323', monospace;
+}
+
+.text3 {
+  text-shadow: 2px 2px goldenrod;
+  font-family: 'VT323', monospace;
+}
+
+.checkbox-round3 {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.checkbox-round3:checked {
+background-color: hotpink;
+}
+
+.checkbox-round4 {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: blue;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid black;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
